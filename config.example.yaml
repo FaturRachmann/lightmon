@@ -1,0 +1,42 @@
+# lightmon configuration file
+# Generated automatically on first run
+# Location: ~/.lightmon/config.yaml
+
+# Alert thresholds (percentage)
+thresholds_config:
+  cpu_warning: 70       # Yellow warning at 70%
+  cpu_critical: 90      # Red critical at 90%
+  mem_warning: 75
+  mem_critical: 90
+  disk_warning: 80
+  disk_critical: 95
+  temp_warning: 75      # Celsius
+  temp_critical: 85
+
+# Display options
+display:
+  show_cores: false       # Show per-core CPU usage
+  show_network: true      # Show network panel
+  show_battery: true      # Show battery panel (auto-hide if no battery)
+  show_load_avg: true     # Show load averages
+  show_uptime: true       # Show system uptime
+  process_limit: 20       # Max processes to display
+  refresh_rate: "1s"      # Refresh interval
+  time_format: "15:04:05" # Timestamp format
+  temperature_unit: "celsius"
+
+# Metrics logging
+logging:
+  enabled: false
+  file_path: "~/.lightmon/metrics.log"
+  format: "json"          # or "csv"
+  max_size_mb: 100
+  max_backups: 3
+
+# Alerts
+alerts:
+  enabled: true
+  sound_enabled: false    # Future: sound alerts
+  visual_enabled: true    # Show alert panel
+  log_to_file: true
+  cooldown: "5m"          # Min time between same alerts
