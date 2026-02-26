@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"github.com/gdamore/tcell/v2"
-	"github.com/lightmon/config"
-	"github.com/lightmon/export"
-	"github.com/lightmon/internal"
-	"github.com/lightmon/metrics"
+	"github.com/FaturRachmann/lightmon/config"
+	"github.com/FaturRachmann/lightmon/export"
+	"github.com/FaturRachmann/lightmon/internal"
+	"github.com/FaturRachmann/lightmon/metrics"
 	"github.com/rivo/tview"
 )
 

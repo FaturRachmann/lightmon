@@ -6,10 +6,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/lightmon/config"
-	"github.com/lightmon/export"
-	"github.com/lightmon/internal"
-	"github.com/lightmon/ui"
+	"github.com/FaturRachmann/lightmon/config"
+	"github.com/FaturRachmann/lightmon/export"
+	"github.com/FaturRachmann/lightmon/internal"
+	"github.com/FaturRachmann/lightmon/ui"
 )
 
 var (

@@ -9,6 +9,7 @@ Fast • Advanced • User-Friendly
 [![Go Version](https://img.shields.io/badge/Go-1.21+-00ADD8?style=flat-square&logo=go)](https://golang.org)
 [![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20macOS-lightgrey?style=flat-square)](#)
 [![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](#license)
+[![Stars](https://img.shields.io/github/stars/FaturRachmann/lightmon?style=flat-square)](https://github.com/FaturRachmann/lightmon/stargazers)
 
 </div>
 
@@ -110,7 +111,7 @@ LightMon adalah system monitor terminal yang **ringan, cepat, dan kaya fitur**. 
 
 ```bash
 # Clone repository
-git clone https://github.com/youruser/lightmon
+git clone https://github.com/FaturRachmann/lightmon
 cd lightmon
 
 # Download dependencies
@@ -129,21 +130,21 @@ Binary akan tersedia di:
 
 ### Metode 2: Download Pre-built Binary
 
-Download binary untuk platform Anda dari [releases page](https://github.com/youruser/lightmon/releases):
+Download binary untuk platform Anda dari [releases page](https://github.com/FaturRachmann/lightmon/releases):
 
 ```bash
 # Linux AMD64
-wget https://github.com/youruser/lightmon/releases/download/v2.0.0/lightmon-linux-amd64
+wget https://github.com/FaturRachmann/lightmon/releases/download/v2.0.0/lightmon-linux-amd64
 chmod +x lightmon-linux-amd64
 sudo mv lightmon-linux-amd64 /usr/local/bin/lightmon
 
 # macOS ARM64 (Apple Silicon)
-wget https://github.com/youruser/lightmon/releases/download/v2.0.0/lightmon-darwin-arm64
+wget https://github.com/FaturRachmann/lightmon/releases/download/v2.0.0/lightmon-darwin-arm64
 chmod +x lightmon-darwin-arm64
 sudo mv lightmon-darwin-arm64 /usr/local/bin/lightmon
 
 # macOS AMD64 (Intel)
-wget https://github.com/youruser/lightmon/releases/download/v2.0.0/lightmon-darwin-amd64
+wget https://github.com/FaturRachmann/lightmon/releases/download/v2.0.0/lightmon-darwin-amd64
 chmod +x lightmon-darwin-amd64
 sudo mv lightmon-darwin-amd64 /usr/local/bin/lightmon
 ```
@@ -151,7 +152,7 @@ sudo mv lightmon-darwin-amd64 /usr/local/bin/lightmon
 ### Metode 3: Go Install
 
 ```bash
-go install github.com/youruser/lightmon@latest
+go install github.com/FaturRachmann/lightmon@latest
 ```
 
 Binary akan tersedia di `$GOPATH/bin/lightmon`.
@@ -460,9 +461,8 @@ Distributed under the **MIT License**. Lihat `LICENSE` untuk lebih detail.
 
 ## 📞 Support
 
-- **Issues:** [GitHub Issues](https://github.com/youruser/lightmon/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/youruser/lightmon/discussions)
-- **Email:** your.email@example.com
+- **Issues:** [GitHub Issues](https://github.com/FaturRachmann/lightmon/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/FaturRachmann/lightmon/discussions)
 
 ---
 

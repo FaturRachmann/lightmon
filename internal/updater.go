@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lightmon/battery"
-	"github.com/lightmon/history"
-	"github.com/lightmon/metrics"
-	"github.com/lightmon/system"
+	"github.com/FaturRachmann/lightmon/battery"
+	"github.com/FaturRachmann/lightmon/history"
+	"github.com/FaturRachmann/lightmon/metrics"
+	"github.com/FaturRachmann/lightmon/system"
 )
 
 // SystemSnapshot holds all system metrics at a point in time

@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/lightmon/internal"
+	"github.com/FaturRachmann/lightmon/internal"
 )
 
 // Exporter handles metrics export to various formats

@@ -1,4 +1,4 @@
-module github.com/lightmon
+module github.com/FaturRachmann/lightmon
 
 go 1.21
 
